@@ -11,8 +11,6 @@ int main(){
        sum=a+b;
        a=b;
        b=sum;
-       cout<<b;
-       
+       cout<<b;  
     }
-
 }
