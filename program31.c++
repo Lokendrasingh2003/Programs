@@ -1,4 +1,4 @@
-// WAP to find nth term of fibonacci Series.
+// WAP to print first N terms  of fibonacci series.
 
 #include<iostream>
 using namespace std;
@@ -7,11 +7,12 @@ int main(){
     cout<<"Enter any number:";
     cin>>n;
     for(int i=1;i<=n;i++){
+      
        sum=a+b;
        a=b;
        b=sum;
-
-
+       cout<<b;
+       
     }
-    cout<<"Fibonacci Series:"<<sum;
+
 }
