@@ -1,5 +1,5 @@
 
-// Write a recursive function to find factorial of a given number.
+// Write a recursive function to find fibanocai of a given number.
 #include<iostream>
 using namespace std;
 int function(int n,int a,int b,int sum){
@@ -12,8 +12,6 @@ int function(int n,int a,int b,int sum){
         a=b;
         b=sum;
         function(n-1,a,b,sum);
-
-        
     }
 }
 int main(){
