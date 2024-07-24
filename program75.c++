@@ -3,12 +3,12 @@
 using namespace std;
 int main(){
     int array[10],num,sum_even=0,sum_odd=0;
-    for(int i=1;i<=10;i++){
+    for(int i=0;i<10;i++){
         cout<<"Enter the number:";
         cin>>num;
         array[i]=num;
     }
-    for(int i=1;i<=10;i++){
+    for(int i=0;i<10;i++){
         if(array[i]%2==0){
         sum_even=sum_even+array[i];
         }
