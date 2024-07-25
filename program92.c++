@@ -14,13 +14,14 @@ int function(){
         for(int j=0;j<2;j++){  
            
             array2[i][j]=array1[j][i];
-            
+
         }
     }
     for(int i=0;i<2;i++){
         for(int j=0;j<3;j++){
             cout<<array2[i][j]<<" ";
             }
+            
             cout<<endl;
             }
 }
