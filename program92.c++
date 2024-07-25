@@ -14,6 +14,7 @@ int function(){
         for(int j=0;j<2;j++){  
            
             array2[i][j]=array1[j][i];
+            
         }
     }
     for(int i=0;i<2;i++){
