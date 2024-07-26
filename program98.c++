@@ -1,4 +1,4 @@
-// Write a program to convert the given string in uppercase.
+// Write a program to reverse the string.
 #include<iostream>
 using namespace std;
 
@@ -10,16 +10,10 @@ int main() {
     cin.getline(a, 100);
 
     while(a[length]!='\0'){
-        if(a[length]==' '){
-            a[length]=a[length];
             length++;
             }
-             a[length]=toupper(a[length]);
-             length++;
-            }
-
-        cout<<a;
-
-       
+    for(int i=length-1;i>=0;i--){
+        cout<<a[i];
+    }
     }
 
