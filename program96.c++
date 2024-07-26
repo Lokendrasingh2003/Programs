@@ -1,4 +1,5 @@
-#include <iostream>
+// Write a program to find the spaces in the given string.
+#include<iostream>
 using namespace std;
 
 int main() {
