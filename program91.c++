@@ -21,7 +21,7 @@ int function(){
         for(int j=0;j<3;j++){  
             temp=0;
             for(int k=0;k<3;k++){
-            temp+=array1[j][j]*array2[k][j];
+            temp+=array1[i][k]*array2[k][j];
             }
             array3[i][j]=temp;
         }
