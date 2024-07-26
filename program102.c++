@@ -1,5 +1,5 @@
 
-// Write a function to find the character in given string. Return index of first occurance of given character. Return -1 if character not found.
+// Write a function to swap two characters of given string between specified indices.
 #include<iostream>
 using namespace std;
 
