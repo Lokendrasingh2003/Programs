@@ -1,21 +1,24 @@
-// Write a function to trim the spaces from both the end in the string.
+// Write a function to find the string is palindrom or not.
 #include<iostream>
 using namespace std;
 int function(char a[100],int l){
     char b[100];
-    int j=0,c=0,i=0;
-    while(a[j]==' '){
+    int j=0,c=0;
+    for(int i=l-1;i>=0;i--){
+        b[j]=a[i];
         j++;
-        }
+    }
     for(int i=0;i<l;i++){
-        b[i]=a[j];
-        j++;
+        if(a[i]!=b[i]){
+            cout<<"Given string is not palindrom.";
+            c++;
+            break;
+        }
+
     }
-    for(int i=l-1;a[i]==' ';i--){
-        b[i]='\0';
+    if(c==0){
+        cout<<"Given string is palindrom.";
     }
-    cout<<b;
-   
 }
 int main(){
     char a[100];
