@@ -21,7 +21,13 @@ int function(char a[100],int l){
     }
     for(int i=0;i<l;i++){
         if(b[i]==' '){
-          c++;
+            if(b[i+1]==' ')
+            {
+                continue;
+            }
+            else{
+                c++;
+            }
     }
     }
 
