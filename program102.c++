@@ -14,7 +14,7 @@ int function(char a[100],int length,int posi1,int posi2){
 
 int main(){
     char a[100],b[100];
-    int length_a=0,result,posi1,posi2;
+    int length_a=0,result,posi1,posi2 ;
     cout<<"Enter a string:";
     cin.getline(a,100);
     cout<<"Enter the position which do you want to swap:";
