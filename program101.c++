@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
     char a[100],b[100];
-    int length_a=0,length_b=0,c=0;
+    int length_a=0,length_b=0,c=0 ;
     cout<<"Enter a string:";
     cin.getline(a,100);
     cout<<"Enter another string:";
